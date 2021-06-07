@@ -19,39 +19,37 @@
 			<input id="last" type="text" name="lastname" required>
 		</div>
 
+		<p>Select a Race:</p>
 		<div>
-			<p>
-				<label>Select a Race:</label>
-			</p>
-			<div>
-				<input type="radio" name="race" id="fun" value="fun_run">
-				<label for="fun">Fun Run 5k</label>
+			<label for="fun">Fun Run 5k</label>
+			<input type="radio" name="race" id="fun" value="funrun">
+		</div>
 
-			</div>
-			<div>
-				<input type="radio" name="race" id="half" value="half_marathon">
-				<label for="half">Half Marathon</label>
-			</div>
-			<div>
-				<input type="radio" name="race" id="full" value="full_marathon">
-				<label for="full">Full Marathon</label>
-			</div>
+		<div>
+			<label for="half">Half Marathon</label>
+			<input type="radio" name="race" id="half" value="half">
+		</div>
 
+		<div>
+			<label for="full">Full Marathon</label>
+			<input type="radio" name="race" id="full" value="full">
+		</div>
 
+		<div>
 			<label for="email">Email</label>
 			<input type="email" id="email" name="email" required>
 			<label for=" password" type="password" name="password">Pasword</label>
 			<input type="password" id="password" name="password" required>
+		</div>
 
-			<div>
-				<label for="age">Select Age Group</label>
-				<select name="age" id="age">
-					<option value="minor">under 18</option>
-					<option value="young">18-30</option>
-					<option value="middle-aged">30-50</option>
-					<option value="senior">50+</option>
-				</select>
-			</div>
+		<div>
+			<label for="age">Select Age Group</label>
+			<select name="age" id="age">
+				<option value="minor">under 18</option>
+				<option value="young">18-30</option>
+				<option value="middle-aged">30-50</option>
+				<option value="senior">50+</option>
+			</select>
 		</div>
 
 		<button>Register!</button>
